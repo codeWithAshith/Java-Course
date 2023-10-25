@@ -12,5 +12,9 @@ public class D_Arrays {
         for (String name : names) {
             System.out.print(name + ",");
         }
+
+        names[4] = "asdsa";
+        System.out.println();
+
     }
 }

@@ -19,5 +19,6 @@ public class A_DataTypes {
         System.out.println("double is " + output);
         System.out.println("char is " + alpha);
         System.out.println("boolean is " + result);
+
     }
 }
