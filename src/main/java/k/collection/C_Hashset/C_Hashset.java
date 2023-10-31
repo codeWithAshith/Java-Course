@@ -3,7 +3,7 @@ package k.collection.C_Hashset;
 import java.util.HashSet;
 import java.util.Iterator;
 
-//In the Set, duplicate items will not be printed in the output and will not be taken into account.
+// In the Set, duplicate items will not be printed in the output and will not be taken into account.
 
 // HashSet stores the objects in random order,
 // whereas TreeSet applies the natural order of the elements.
@@ -18,16 +18,17 @@ public class C_Hashset {
         HashSet<Integer> evenNumber = new HashSet<>();
 
         // Using add() method
-        evenNumber.add(2);
+        evenNumber.add(29);
         evenNumber.add(4);
         evenNumber.add(6);
+        evenNumber.add(4);
         System.out.println("HashSet: " + evenNumber);
 
         HashSet<Integer> numbers = new HashSet<>();
 
         // Using addAll() method
         numbers.addAll(evenNumber);
-        numbers.add(5);
+        numbers.add(1);
         System.out.println("New HashSet: " + numbers);
 
         // Calling iterator() method

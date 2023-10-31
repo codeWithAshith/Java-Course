@@ -1,0 +1,18 @@
+Garbage collection
+It in Java is the automated process of deleting code that's no longer needed or used
+
+Mark
+The mark phase is just a Depth First Search traversal on one root node and the idea is to
+mark every node as LIVE that is reachable from the root node. Once all the nodes are marked,
+we can conclude that the nodes that remain unmarked are garbage; and the ones to be cleaned up.
+
+Sweep
+The nodes left unmarked are the garbage and hence in the sweep phase,
+the GC iterates through all the objects and frees the unmarked objects,
+and resets the marked object to prepare them for the next cycle.
+
+Java Heap space is used by java runtime to allocate memory to Objects
+
+Stack Memory in Java is used for static memory allocation and the execution of a thread.
+It contains primitive values that are specific to a method and references to objects
+referred from the method that are in a heap.

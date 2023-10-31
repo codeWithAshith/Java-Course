@@ -19,7 +19,8 @@ public class F_ConsumerInterface {
 
 //        To print person name in caps
         System.out.println("---PERSON---");
-        Consumer<Person> personNameConsumer = person -> System.out.println(person.getName().toUpperCase());
+        Consumer<Person> personNameConsumer = person
+                -> System.out.println(person.getName().toUpperCase());
         personList.forEach(personNameConsumer);
 
 //        Now, try to print all male person
@@ -29,5 +30,6 @@ public class F_ConsumerInterface {
                 personNameConsumer.accept(person);
             }
         });
+
     }
 }

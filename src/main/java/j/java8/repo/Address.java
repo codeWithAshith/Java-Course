@@ -2,11 +2,10 @@ package j.java8.repo;
 
 
 public class Address {
-    String block, city, state, country;
-    int pincode;
+    private String block, city, state, country;
+    private int pincode;
 
     public Address(String block, String city, String state, String country, int pincode) {
-        super();
         this.block = block;
         this.city = city;
         this.state = state;

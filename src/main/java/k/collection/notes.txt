@@ -1,0 +1,26 @@
+List
+----
+- In List which is created using List.of(), we cannot add items to a list
+- Other types of list are Arraylist, Vector and linkedList
+- Arraylist is of  array data structure, so accessing data is faster
+  but adding and removing data is slower
+- Linked list if of double linked data structure, so accessing data is slower but
+  adding and removing is faster
+- Vector is also of array data structure, thread safe whereas arraylist is not thread safe
+
+Set
+---
+- Set doesn't allow duplicate
+- In Set which is created using Set.of(), we cannot add items to a Set
+- Other types of Set are HashSet, LinkedHashSet and TreeSet
+- HashSet uses Hashing table, data is not stored sorted but in a random order
+- LinkedHashSet uses linked data structure, data stored is not sorted order
+  but stored in the order which we inserted
+- TresSet uses Tree data structure, data is sorted order
+
+Map
+---
+- Used to store Key Value pair
+- HashMap, HashTable, LinkedHashMap, TreeMap
+- HashTable is threadsafe and doesnot allow null value
+

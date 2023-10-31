@@ -11,6 +11,7 @@ public class L_ConsumerPredicate {
     public static void main(String[] args) {
         BiPredicate<Integer, String> heightAndGenderCheck = (height, gender) ->
                 height >= 140 && gender.equals("Male");
+
         BiConsumer<String, List<String>> hobbiesBiConsumer = (name, hobbies) ->
                 System.out.println("Name: " + name + " /Hobbies: " + hobbies);
 

@@ -11,15 +11,14 @@ public class Person {
     private double salary;
     private String gender;
     private int kids;
-    List<String> hobbies = new ArrayList<>();
-    Optional<Address> address;
+    private List<String> hobbies = new ArrayList<>();
+    private Optional<Address> address;
 
     public Person() {
         super();
     }
 
     public Person(String name, int height, double salary, String gender, int kids, List<String> hobbies) {
-        super();
         this.name = name;
         this.height = height;
         this.salary = salary;

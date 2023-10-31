@@ -8,7 +8,7 @@ public class D_Treeset {
         TreeSet<Integer> evenNumbers = new TreeSet<>();
 
         // Using the add() method
-        evenNumbers.add(2);
+        evenNumbers.add(29);
         evenNumbers.add(4);
         evenNumbers.add(6);
         System.out.println("TreeSet: " + evenNumbers);

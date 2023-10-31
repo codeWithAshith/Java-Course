@@ -25,7 +25,9 @@ public class PersonRepository {
 
     public static Optional<Person> getPersonOptional() {
         Person per = getPerson();
-        per.setAddress(Optional.of(new Address("7 th Block", "Ashburn", "Virginia", "USA", 20047)));
+        per.setAddress(Optional.of(
+                new Address("7 th Block", "Ashburn",
+                        "Virginia", "USA", 20047)));
         return Optional.of(per);
     }
 
